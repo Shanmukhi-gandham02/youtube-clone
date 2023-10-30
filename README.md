@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Youtube Clone Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a YouTube clone application built using React and Material-UI 5. It leverages the Rapid API (https://rapidapi.com/ytdlfree/api/youtube-v31/)  to fetch real-time data from YouTube, allowing users to browse, search, and view videos just like they would on the official YouTube platform.
 
-## Available Scripts
+# Link to the website
+https://shanmukhigandham-youtubeclone.netlify.app/
 
-In the project directory, you can run:
+![Screenshot (284)](https://github.com/Shanmukhi-gandham02/youtube-clone/assets/84323709/e702ec95-da24-4bf5-833a-a46c678e4acb)
 
-### `npm start`
+# Features
+- User-friendly, responsive design powered by Material-UI 5
+
+- Real-time video search using YouTube API
+  <br /> 
+  Upon launching the application, you will be greeted with the YouTube clone home page. You can search for videos using the search bar.
+  <br/><br/>
+  ![Screenshot (285)](https://github.com/Shanmukhi-gandham02/youtube-clone/assets/84323709/f6391f36-93f8-4b31-ac86-f31e7e340ff9)
+
+- Video playback with standard controls
+- Video recommendations and related videos
+  <br/>
+  Click on a video to play it. You can control video playback, adjust volume, and view video details. On the right side of the video player, you will find related videos for the one you are currently watching.
+  <br/><br/>
+- View Channel and get their latest videos
+  <br/><br/>
+
+  ![Screenshot (288)](https://github.com/Shanmukhi-gandham02/youtube-clone/assets/84323709/3e87df35-cf13-43df-90dd-101a12304d52)
+
+  
+
+  ## SetUp & Usage
+
+1. Clone this repository to your local machine:
+  
+   ```bash
+   git clone https://github.com/Shanmukhi-gandham02/youtube-clone.git
+
+2. Navigate to the project folder:
+
+   ```bash
+   cd youtube-clone
+
+3. ### `npm run build`
+
+Builds the app for production to the `build` folder.
+
+4. ### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
